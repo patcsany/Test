@@ -1,5 +1,6 @@
-$token = 'YOUR LINE NOTIFY TOKEN';
+<?php
+require_once './vendor/autoload.php';
+$token = 'LINE_NOTIFY_TOKEN';
 $ln = new KS\Line\LineNotify(pX1pcfF3EQxRglCOUGWe3JNVbPyhkGEofSYC67hO4g3);
-
-$text = 'Hello Line Notify';
+$text = 'สวัสดี Line Notify';
 $ln->send($text);
