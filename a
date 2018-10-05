@@ -1,6 +1,1 @@
-<?php
-require_once './vendor/autoload.php';
-$token = 'pX1pcfF3EQxRglCOUGWe3JNVbPyhkGEofSYC67hO4g3';
-$ln = new KS\Line\LineNotify($token);
-$text = 'สวัสดี Line Notify';
-$ln->send($text);
+fastlane add_plugin line_notify
